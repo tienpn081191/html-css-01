@@ -1,0 +1,351 @@
+a {
+    color: #000;
+}
+.body {
+    display: flex;
+}
+.main-content {
+    width: 1110px;
+    max-width: calc(100%-48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* -----header----- */
+.fixed-header {
+    height: 40px;
+    margin-top: 38px;
+    margin-bottom: 39px;
+}
+.fixed-header .body {
+    justify-content: space-between;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.fixed-header .logo {
+    width: 107px;
+    height: 24px;
+}
+
+/* ---main--- */
+/* ---hero-wrap--- */
+.hero-wrap {
+    position: relative;
+    width: 100%;
+    height: 619px;
+    background-color: #E6F0FF;
+}
+.hero-wrap .sub-title {
+    margin-top: 0px;
+    font-size: 18px;
+}
+.hero-wrap .hero-img {
+    position: absolute;
+    width: 584px;
+    height: 619px;
+    margin-left: 626px;
+}
+.hero-wrap .title {
+    width: 559px;
+    height: 152px;
+    font-weight: 700;
+    font-size: 64px;
+    font-family: Poppins;
+    position: absolute;
+    margin-top: 35px;
+}
+.hero-wrap .desc {
+    width: 550px;
+    height: 64px;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 217px;
+    line-height: 32px;
+}
+.hero-wrap .info {
+    position: relative;
+    width: 559px;
+    height: 371px;
+    margin-top: 91px;
+}
+.hero-wrap .btn {
+    position: absolute;
+    margin-top: 321px;
+}
+/* ---clients--- */
+.clients {
+    height: 312px;
+    padding-top: 79px;
+}
+.clients .main-content {
+    height: 228px;
+    margin-top: 43px;
+}
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+}
+.clients .row-desc {
+    display: flex;
+    justify-content: space-between;
+    /* width: 346px; */
+    height: 20px;
+    margin-top: 23px;
+    }
+.clients .row-desc .desc {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7D8589;
+}
+.clients .row-desc .stars {
+    margin-top: 46px;
+    width: 116px;
+    height: 18.85px;
+}
+.clients .images {
+    display: flex;
+    justify-content: space-between;
+}
+.clients .logo {
+    width: 107px;
+    height: 24px;
+    margin-top: 43px;
+}
+.clients .images {
+    margin-top: 70px;
+    width: 1090px;
+    height: 91px;
+    margin-left: 10px;
+}
+/* ---guides--- */
+.guides {
+    height: 585px;
+    position: relative;
+    padding-top: 40px;
+}
+
+.guides .sub-title {
+    /* width: 269px;
+    height: 36px; */
+    /* position: absolute; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    font-size: 36px;
+    margin-top: 79px;
+    font-weight: 600;
+    text-align: center;
+}
+.guides .desc {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 56px;
+    line-height: 30px;
+    text-align: center;
+}
+.list-guide {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    /* width: 685px;
+    height: 129px;
+    margin-left: 212px; */
+}
+.list-guide .guide-item {
+    margin: 0 70px;
+    text-align: center;
+}
+.guide-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+}
+
+/* ---featured--- */
+.featured {
+    /* margin-top: 41px; */
+    height: 727px;
+    position: relative;
+    padding-top: 41px;
+}
+
+.featured header {
+    margin-top: 110px;
+}
+.featured header .sub-title {
+    font-size: 36px;
+    font-weight: 600;
+}
+.featured header .desc {
+    margin-top: 15px;
+}
+.featured .row {
+    display: flex;
+    justify-content: space-between;
+}
+.featured .list {
+    display: flex;
+    position: absolute;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 68px;
+}
+.featured .item .thumb {
+    width: 350px;
+    height: 227px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.featured .body {
+    align-items: center;
+}
+.featured .icon {
+    margin-left: 23px;
+}
+.featured .label {
+    margin-left: 8px;
+}
+.featured .list .item .title {
+    margin-top: 17px;
+}
+.featured .list .item .desc {
+    margin-top: 11px;
+}
+.featured .list .item .body {
+    margin-top: 21px;
+}
+/* ---stats--- */
+.stats {
+    height: 785px;
+    padding-top: 95px;
+}
+.stats .row {
+    display: flex;
+    margin-top: 50px;
+}
+.stats .img-block .image {
+    width: 400px;
+    height: 460px;
+    display: block;
+    margin-left: 151px;
+}
+.stats .avatar {
+    width: 16px;
+    height: 16px;
+}
+.stats .avatar-block {
+    display: flex;
+}
+.stats .img-block {
+    position: relative;
+    width: 400px;
+    height: 460px;
+}
+.stats-trend {
+    position: absolute;
+    top: 0px;
+    left: 41px;
+    width: 239px;
+    background-color: #fff;
+    width: 239px;
+    height: 252px;
+}
+.stats .info {
+    width: 309px;
+    height: 326px;
+    padding: 79px 0 0 165px;
+    margin-left: 165px;
+}
+.stats .info .sub-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+.stats .info .desc {
+    margin-top: 20px;
+    line-height: 30px;
+}
+.stats .row-qty {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+.stats .row-qty strong {
+    font-size: 64px;
+    font-weight: 600;
+}
+.stats .row-qty .qty-desc {
+    margin-top: 24px;
+}
+/* ---supcription--- */
+
+.supcriptions {
+    padding-top: 51px;
+    height: 409px;
+}
+.supcriptions .body {
+    position: relative;
+    height: 370px;
+    background-color: #063183;
+    margin-top: 40px;   
+    align-items: center;
+}
+.supcriptions .image {
+    position: absolute;
+    height: 439px;
+    right: 221px;
+    margin-top: 1px;
+}
+.supcriptions .info .sub-title  {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.supcriptions .info .desc {
+    color: #fff;
+    margin-top: 15px;
+}
+.supcriptions .info {
+    width: 501px;
+    height: 150px;
+    margin-left: 80px;
+}
+.supcriptions .info .btn {
+    color: #fff;
+    margin-top: 44px;
+}
+
+/* ---footer--- */
+footer {
+    height: 429px;
+    padding-top: 55px;
+}
+footer .main-content {
+    height: 321px;
+}
+footer .row-top {
+    display: flex;
+    justify-content: space-between;
+    height: 216px;
+    margin-top: 55px;
+}
+footer .row-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+footer .row-top .column {
+    width: 71px;
+    height: 216px;
+}
+.column .heading {
+    margin-bottom: 42px;
+}
+.column .list .item {
+    margin-top: 18px;
+}
+.row-bottom {
+    margin-top: 81px;
+}
